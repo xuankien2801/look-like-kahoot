@@ -1,0 +1,34 @@
+.header-footer {
+    width: 100%;
+    background-color: #fff;
+    min-height: 100vh;
+    font-size: 13px;
+}
+.header-footer__header {
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.header-footer__center {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+.header-footer__container {
+    width: 100%;
+}
+.header-footer__footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.05);
+}

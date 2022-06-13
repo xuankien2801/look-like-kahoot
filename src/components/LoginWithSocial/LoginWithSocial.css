@@ -1,0 +1,24 @@
+.login-with-social {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: 400px;
+}
+.login-with-social__button {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 4px 10px 4px 10px;
+    min-width: 119px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-with-social__button:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+.login-with-social__img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
